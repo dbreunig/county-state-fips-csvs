@@ -12,8 +12,6 @@ So use the whole 5 character code for counties and don't drop the zero.
 
 By the way, FIPS codes don't stop at counties. The next step down is Place codes. For example, Autaugaville is an unincorporated twon in Autauga County, Alabama. Its Place code is `03220`. So you could express it's full FIPS code, with prefixed state and county, as `0100103220`.
 
-## Future Improvements:
+## Want Something More Robust?
 
-- Provide easy to use state boundaries as .geojson and .csv using wkt strings.
-- Provide easy to use county boundaries as .geojson and .csv using wkt strings.
-- Provide Place FIPs codes and shapes.
+Head over to Simon Willison's [us-counties-datasette](https://github.com/simonw/us-counties-datasette) repo for shapefiles and polished integration with [datasette](https://datasette.io/) for standing up a handy API and query interface. Or use the live instance: https://us-counties.datasette.io/
