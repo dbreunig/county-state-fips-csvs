@@ -10,7 +10,7 @@ Before you get mad at FIPS and curse its leading zeroes, please appreciate that 
 
 So use the whole 5 character code for counties and don't drop the zero.
 
-By the way, FIPS codes don't stop at counties. The next step down is Place codes. For example, Autaugaville is an unincorporated twon in Autauga County, Alabama. Its Place code is `03220`. So you could express it's full FIPS code, with prefixed state and county, as `0100103220`.
+By the way, FIPS codes don't stop at counties. The next step down is Place codes. For example, Autaugaville is an unincorporated town in Autauga County, Alabama. Its Place code is `03220`. So you could express it's full FIPS code, with prefixed state and county, as `0100103220`.
 
 ## Future Improvements:
 
